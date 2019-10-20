@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "272052171819",
+    "firebase_url": "https://e-panchayat-6f481.firebaseio.com",
+    "project_id": "e-panchayat-6f481",
+    "storage_bucket": "e-panchayat-6f481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272052171819:android:915a28d453b4742398666e",
+        "android_client_info": {
+          "package_name": "example.com.e_panchayat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272052171819-33rpn5mcm9kabl8efuan0h08uuh3qomi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.com.e_panchayat",
+            "certificate_hash": "bef37046d5952a29068af651db5e184a70971728"
+          }
+        },
+        {
+          "client_id": "272052171819-ja4mjfkpcaj3euleuqhs8tdg45btke61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqFkq5JaUvXNJDfpoEPhWZ8Lu3a68Kog4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272052171819-ja4mjfkpcaj3euleuqhs8tdg45btke61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

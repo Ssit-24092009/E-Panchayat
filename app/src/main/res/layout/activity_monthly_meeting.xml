@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonthlyMeetingActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/meetingtoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 1. The meetings of a Panchayat at any level shall be held at such intervals, as may be prescribed:
+Provided that the interval between two meetings shall not exceed one month.
+86[(1 a) If a notice in writing is given to the President by not less than one third of the members or members notified by Governments under sub-section (1) of section 6, specifying the purpose for which the meeting is to be convened, he shall convene, a special meeting of the panchayat for considering that matter]"/>
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Every meeting of a Panchayat shall be presided over by its President or, in his absence, but its Vice-President or, in the absence of both, by a member chosen by the members present at the meeting to preside over the occasion."/>
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. The person presiding shall preserve order at the meeting and decide all points of order arising at or in connection with meetings. There shall be no discussion on any point of order and the decision of the person presiding on any point of order shall be final."/>
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Save as provided in this Act, the time and place of a meeting of a Panchayat, the quorum of such meeting, the procedure of calling such meeting and the procedure at such meeting shall be such as may be prescribed."/>
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. The rules referred to in sub-section (4) may provide for preventing any member or President or any member or Chairman of a committee from voting on, or taking part in the discussion, of any matter in which apart from its general application to the public he has any direct or indirect pecuniary interest, whether by himself or through some otherperson, or from being present or presiding at any meeting of the Panchayat or of the committee during the discussion of any such matter."/>
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
